@@ -1,0 +1,17 @@
+---
+data_path: data/
+
+database_path: data/dbl_database.sqlite
+
+modelseed:
+  reactions: ModelSEED/reactions.json
+  compounds: ModelSEED/compounds.json
+
+bigg:
+  reactions: BiGG/bigg_models_reactions.txt
+  compounds: BiGG/bigg_models_metabolites.txt
+
+metacyc:
+  reactions: MetaCyc/reactions.dat
+  compounds: MetaCyc/compounds.dat
+...
